@@ -1,4 +1,4 @@
 # FateSessionToolkit API.
-Fate Core toolkit for GMs and players. 
+Api for Fate Session Toolkit app. 
 
-Technologies: PHP, Laravel, MySQL, HTML5, CSS3/StylusCSS, vuejs2, vuetify.
+Technologies: PHP, Laravel, MySQL.
