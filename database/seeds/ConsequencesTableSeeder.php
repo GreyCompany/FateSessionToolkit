@@ -1,8 +1,9 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use App\Consequence;
 
-class DatabaseSeeder extends Seeder
+class ConsequencesTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -11,7 +12,6 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        $this->call(AspectsTableSeeder::class);
-        $this->call(ConsequencesTableSeeder::class);        
+        factory(App\Consequence::class, 15)->create();
     }
 }

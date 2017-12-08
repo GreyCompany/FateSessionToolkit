@@ -14,3 +14,5 @@ use Illuminate\Http\Request;
 */
 
 Route::get('/aspects', 'AspectsController@index');
+
+Route::get('/consequences', 'ConsequencesController@index');
